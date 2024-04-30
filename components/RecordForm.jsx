@@ -31,15 +31,14 @@ const RecordForm = (props) => {
             value={data.name}
             onChange={(e) => handleChange("name", e.target.value)}
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Name placeholder"
+            placeholder="Insert animal name"
             required
           />
         </div>
         <div>
           <label
             htmlFor="description"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-          >
+            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
             Description
           </label>
           <textarea
@@ -48,7 +47,7 @@ const RecordForm = (props) => {
             value={data.description}
             onChange={(e) => handleChange("description", e.target.value)}
             className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Write a description"
+            placeholder="Information about the animal"
           ></textarea>
         </div>
         <div>
@@ -64,7 +63,24 @@ const RecordForm = (props) => {
             value={data.country}
             onChange={(e) => handleChange("country", e.target.value)}
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Insert a country"
+            placeholder="Insert origin country"
+            required
+          />
+        </div>
+        <div>
+          <label
+            htmlFor="life"
+            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          >
+            Life Estimation
+          </label>
+          <input
+            type="life"
+            id="life"
+            value={data.life}
+            onChange={(e) => handleChange("life", e.target.value)}
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Insert life estimation"
             required
           />
         </div>
