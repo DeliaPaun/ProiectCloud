@@ -17,7 +17,7 @@ const RecordForm = (props) => {
   return (
     <div className="p-4">
       <div className="flex flex-col mx-auto max-w-80 border p-4 shadow-sm gap-4 w-full">
-        <div className="text-center font-bold text-xl">{entry._id ? 'Update' : 'Create new'} Record</div>
+        <div className="text-center font-bold text-xl">{entry._id ? 'Update' : 'Add new'} Animal</div>
         <div>
           <label
             htmlFor="name"
