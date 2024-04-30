@@ -31,7 +31,7 @@ Aplicatia am publicat-o pe Vercel, dupa ce am importat repository-ul corespunzat
 
 3.	Prezentare workflow aplicatie
 
-Prezentarea workflow-ului aplicatiei am realizat-o prin intermediul unui videoclip pe care l-am incarcat pe Youtube (ca nelistat). Link-ul catre prezentare este: 
+Prezentarea workflow-ului aplicatiei am realizat-o prin intermediul unui videoclip pe care l-am incarcat pe Youtube (ca nelistat). Link-ul catre prezentare este: https://www.youtube.com/watch?v=jGw5UUA_qIE.
 
 
 4.	Capturi de ecran aplicatie
